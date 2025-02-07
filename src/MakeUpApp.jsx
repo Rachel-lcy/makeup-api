@@ -3,8 +3,7 @@ import { useState,useEffect } from "react";
 
 const MakeUpApp = () =>{
   const [products, setProducts] = useState([]);
-  const [brand, setBrand] = useState([]);
-  const [selectedBrand, setSelectedbrand] = useState('');
+  
 
   const fetchMakeUpApi = async () =>{
 
